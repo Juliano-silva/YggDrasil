@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+body{
+    background:linear-gradient(to left, #000000 , #000010 , #000020);
+    color: white;
+}
+
+#conteudo{
+    display: flex;
+    flex-flow: row wrap;
+    border: 0.2vh solid transparent;
+    width: 80%;
+    word-break: break-all;
+    overflow: auto;
+    margin-top: 2vh;
+}
+
+.CreateDiv{
+    width: 12vh;
+    height: 12vh;
+    margin-left: 2vh;
+    padding: 2vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vh;
+    cursor: pointer;
+    word-break: break-all;
+}
+
+#Barra{
+    background-color: #0e0631;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    color: white;
+    overflow: auto;
+    top: 0;
+    right: 0;
+}
+
+#Barra > p{
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 2vh;
+}
+
+h1{
+    font-size: 5vh;
+    padding: 3vh;
+    text-align: center;
+    font-size: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    all: unset;
+    border: 0.2vh solid rgb(0, 0, 0);
+    background-color: purple;
+    color: black;
+    width: 10%;
+    text-align: center;
+    padding: 2vh;
+    display: block;
+    margin: auto;
+    font-size: 3vh;
+    color: yellow;
+    cursor: pointer;
+}
